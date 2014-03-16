@@ -1,17 +1,20 @@
-
 This is a To-Do AngularJS app generated using Yeoman project scaffolding.
 
 Installation:
 
 .. code:: bash
     
-    # globally install yeoman and angular generator
-    $ npm install -g yo
-    $ npm install -g generator-angular
-    #create scaffold
+    # Globally install yeoman and angular generator
+    $ sudo npm install -g yo
+    $ sudo npm install -g generator-angular
+    # Create scaffold
     $ yo angular
-    # run test and server
+    # Run test and server
     $ grunt test
     $ grunt server
-    #deploy
+    # Deploy
     $ grunt
+    
+Notes
+
+If you are using Yeoman in a Vagrant box you should first give Yeoman permissions like this ``sudo chown vagrant:vagrant .config/configstore/update-notifier-yo.yml``
