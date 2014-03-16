@@ -17,4 +17,4 @@ Installation:
     
 Notes
 
-If you are using Yeoman in a Vagrant box you should first give Yeoman permissions like this ``sudo chown vagrant:vagrant .config/configstore/update-notifier-yo.yml``
+If you are using Yeoman in a Vagrant box you should first give Yeoman permissions like this ``sudo chown vagrant:vagrant ~/.config/configstore/update-notifier-yo.yml``
